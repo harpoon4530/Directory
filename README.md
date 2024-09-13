@@ -185,7 +185,6 @@ This needs to be done before starting the application; since it depends on a val
 
 [//]: # (     docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:latest)
 [//]: # (     kubectl run -it --rm --image=mysql:latest --restart=Never mysql-client -- mysql -h mysql --password="password")
-
 [//]: # (     kubectl run -it --rm --image=mysql:latest --restart=Never mysql-client -- mysql -h mysql --password="password")
 
         kubectl get pods
